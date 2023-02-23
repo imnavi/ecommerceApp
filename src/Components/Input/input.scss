@@ -1,0 +1,16 @@
+.input-wrapper {
+    .error-message {
+        color: red;
+    }
+    .input {
+        padding: 0.5rem 2rem;
+        border-radius: 1rem;
+        outline: none;
+        border: none;
+
+
+        &.primary {
+            border: 1px solid var(--border-color);
+        }
+    }
+}
